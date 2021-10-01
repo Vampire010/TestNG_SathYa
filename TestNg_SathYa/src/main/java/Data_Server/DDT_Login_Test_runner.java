@@ -1,4 +1,4 @@
-package Test_Runner;
+package Data_Server;
 
 import java.io.IOException;
 
@@ -8,13 +8,13 @@ import org.testng.annotations.Test;
 
 import Log_SignUP_Page_Locaters.Login_Page_Locaters;
 
-public class KB_Login_Test 
+public class DDT_Login_Test_runner 
 {
 	
 	String Browser_Types = "chrome";
 	String Test_Url = "http://mykidsbank.org/";
 	
-	Login_Page_Locaters  Login_Page = new Login_Page_Locaters();
+	Data_Driven_Login  Login_Page = new Data_Driven_Login();
 	
 	
 	@BeforeMethod
@@ -36,6 +36,5 @@ public class KB_Login_Test
 	{
 		Login_Page.driver.quit();
 	}
-	
 
 }

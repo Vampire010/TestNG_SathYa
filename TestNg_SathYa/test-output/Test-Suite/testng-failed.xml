@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test-Suite]">
+  <test thread-count="5" name="Auomation Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke_Test_Case"/>
+        <include name="Regresssion_Test_Case"/>
+        <include name="Functional_Test_Case"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Test_Runner.Create_Depsit_Accounts_Test">
+        <methods>
+          <include name="Create_Deposit_Accounts_Test_Runner1"/>
+          <include name="Create_Deposit_Accounts_Test_Runner3"/>
+          <include name="Create_Deposit_Accounts_Test_Runner"/>
+        </methods>
+      </class> <!-- Test_Runner.Create_Depsit_Accounts_Test -->
+    </classes>
+  </test> <!-- Auomation Test(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

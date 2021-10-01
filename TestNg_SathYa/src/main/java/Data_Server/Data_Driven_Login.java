@@ -1,25 +1,23 @@
-package Log_SignUP_Page_Locaters;
+package Data_Server;
 
 import java.io.IOException;
 
 import org.openqa.selenium.By;
 
 import Browser_Config.Browser_Launcher;
-import Data_Server.DataDriven;
 
-public class Login_Page_Locaters extends Browser_Launcher 
+public class Data_Driven_Login extends Browser_Launcher
 {
-	
-	
-	
-	String Bank_IDs = "67674";
-	String Banker_Username = "banker";
-	String Banker_Password = "jack1234";
+
+	DataDriven ddt = new DataDriven();
+
 	
 	
 	public void Login_Page() throws IOException
 	{
-	
+		String Bank_IDs = ddt.getdata("sname", 2, 0);
+		String Banker_Username = ddt.getdata("sname", 2, 1);
+		String Banker_Password = ddt.getdata("sname", 2, 2);
 		
 		driver.findElement(By.xpath("/html/body/table/tbody/tr[1]/td/table/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/span/input")).sendKeys(Bank_IDs);
 		
@@ -30,6 +28,5 @@ public class Login_Page_Locaters extends Browser_Launcher
 		driver.findElement(By.xpath("//*[@id=\"clicked_when_enter_id\"]")).submit();
 
 	}
-	
 
 }

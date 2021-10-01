@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5359" started-at="2021-09-28T10:50:54 IST" finished-at="2021-09-28T10:50:59 IST">
+  <suite name="Default suite" duration-ms="5787" started-at="2021-10-01T11:18:30 IST" finished-at="2021-10-01T11:18:36 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5359" started-at="2021-09-28T10:50:54 IST" finished-at="2021-09-28T10:50:59 IST">
-      <class name="Test_Runner.KB_Login_Test">
-        <test-method status="PASS" signature="open_browser()[pri:0, instance:Test_Runner.KB_Login_Test@ea1a8d5]" name="open_browser" is-config="true" duration-ms="3458" started-at="2021-09-28T10:50:54 IST" finished-at="2021-09-28T10:50:57 IST">
+    <test name="Default test" duration-ms="5787" started-at="2021-10-01T11:18:30 IST" finished-at="2021-10-01T11:18:36 IST">
+      <class name="Data_Server.DDT_Login_Test_runner">
+        <test-method status="PASS" signature="open_browser()[pri:0, instance:Data_Server.DDT_Login_Test_runner@cb0ed20]" name="open_browser" is-config="true" duration-ms="4120" started-at="2021-10-01T11:18:30 IST" finished-at="2021-10-01T11:18:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_browser -->
-        <test-method status="PASS" signature="Login_Test_Runner()[pri:0, instance:Test_Runner.KB_Login_Test@ea1a8d5]" name="Login_Test_Runner" duration-ms="1786" started-at="2021-09-28T10:50:57 IST" finished-at="2021-09-28T10:50:59 IST">
+        <test-method status="PASS" signature="Login_Test_Runner()[pri:0, instance:Data_Server.DDT_Login_Test_runner@cb0ed20]" name="Login_Test_Runner" duration-ms="1536" started-at="2021-10-01T11:18:34 IST" finished-at="2021-10-01T11:18:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Test_Runner -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:Test_Runner.KB_Login_Test@ea1a8d5]" name="close_browser" is-config="true" duration-ms="82" started-at="2021-09-28T10:50:59 IST" finished-at="2021-09-28T10:50:59 IST">
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:Data_Server.DDT_Login_Test_runner@cb0ed20]" name="close_browser" is-config="true" duration-ms="92" started-at="2021-10-01T11:18:36 IST" finished-at="2021-10-01T11:18:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
-      </class> <!-- Test_Runner.KB_Login_Test -->
+      </class> <!-- Data_Server.DDT_Login_Test_runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

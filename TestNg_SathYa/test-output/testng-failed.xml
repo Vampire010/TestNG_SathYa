@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser_Type" value="safari"/>
+    <classes>
+      <class name="Group_Test_Case.MultiBrowser_Test_Runner">
+        <methods>
+          <include name="close_browser"/>
+          <include name="Login_Page_Tests"/>
+          <include name="open_Browser"/>
+        </methods>
+      </class> <!-- Group_Test_Case.MultiBrowser_Test_Runner -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

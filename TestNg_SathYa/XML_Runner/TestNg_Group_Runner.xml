@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   
+  
+		<groups> 
+       		<run>
+       			<include name="Smoke_Test_Case"/>
+       			<include name="Regresssion_Test_Case"/>   
+       			<include name="Functional_Test_Case"/>       			   			
+	         </run>
+	   </groups> 
+ 	
+ 	<test name="AuomationTest" >
+	   <classes>
+	   		<class name = "Group_Test_Case.Group_Test_Runner"/>
+	   </classes>  		    
+   </test>
+ 
+ </suite>
